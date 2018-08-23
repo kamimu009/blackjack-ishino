@@ -249,6 +249,29 @@
     },
     {
       "key": {
+        "uuid": "5de984a9_3fd57465",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:48:30Z",
+      "side": 1,
+      "message": "こういう無駄な空白はエディタの設定で見えるようにするか\n自動削除されるようにすること(実際の現場では)",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 4
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba6592a5_98e47d59",
         "filename": "main.c",
         "patchSetId": 1
@@ -387,6 +410,52 @@
     },
     {
       "key": {
+        "uuid": "b6928e89_1f165459",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:48:30Z",
+      "side": 1,
+      "message": "Aceを考慮した計算はplayerもdealerも同じはず、関数化を考えること",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 17
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "682570e9_01cd278c",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:48:30Z",
+      "side": 1,
+      "message": "関数化",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 117,
+        "endChar": 5
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3bae0c1d_a545b5f6",
         "filename": "main.c",
         "patchSetId": 1
@@ -426,6 +495,29 @@
         "startChar": 36,
         "endLine": 152,
         "endChar": 38
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3660bfe6_1f9f605e",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:48:30Z",
+      "side": 1,
+      "message": "\\n要るのでは？",
+      "range": {
+        "startLine": 169,
+        "startChar": 34,
+        "endLine": 169,
+        "endChar": 35
       },
       "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
