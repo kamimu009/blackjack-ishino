@@ -1,0 +1,435 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "77de4961_81591792",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "基本的にマクロに変数はダメ",
+      "range": {
+        "startLine": 5,
+        "startChar": 21,
+        "endLine": 5,
+        "endChar": 22
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "14760f11_ac87adb7",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "負の数を扱わないならunsignedの使用を考えること",
+      "range": {
+        "startLine": 8,
+        "startChar": 4,
+        "endLine": 8,
+        "endChar": 7
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c6e70acd_6096ee71",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "なぜグローバル変数？",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 29
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5cdc115d_ea81bf2f",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "手札を表す構造体があるともう少しスマートになると思います。",
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "88a279bd_bbf2a833",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "defineすること",
+      "range": {
+        "startLine": 21,
+        "startChar": 18,
+        "endLine": 21,
+        "endChar": 20
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "89634dcd_518d2fad",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "resultは本当にint型？\nenumを使うべきでは？",
+      "range": {
+        "startLine": 24,
+        "startChar": 35,
+        "endLine": 24,
+        "endChar": 41
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "883c9a51_67829162",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "初期値は全部入れる",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 42
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "028febae_d5727df2",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "配列は0始まりだけど理解していますか？",
+      "range": {
+        "startLine": 33,
+        "startChar": 26,
+        "endLine": 33,
+        "endChar": 27
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f4d8b157_2468f946",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "なぜ20？\nイカサマなのでは",
+      "range": {
+        "startLine": 38,
+        "startChar": 26,
+        "endLine": 38,
+        "endChar": 28
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c7577931_937cd0b0",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "この21が20の次だからという意味なら変数を設けてインクリメントして使う",
+      "range": {
+        "startLine": 39,
+        "startChar": 26,
+        "endLine": 39,
+        "endChar": 28
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee9b720e_7a803bda",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "define",
+      "range": {
+        "startLine": 52,
+        "startChar": 21,
+        "endLine": 52,
+        "endChar": 23
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba6592a5_98e47d59",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "do-whileは非推奨なことが多いです。\nwhileに書き直せるならwhileの方がいいです。",
+      "range": {
+        "startLine": 56,
+        "startChar": 4,
+        "endLine": 56,
+        "endChar": 8
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4205b2ed_87393b55",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "タブ、インデントのミスはエディタの設定でなくすこと",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 2
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "079e28e5_f47ee00b",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "maxというか合計ですね",
+      "range": {
+        "startLine": 63,
+        "startChar": 19,
+        "endLine": 63,
+        "endChar": 22
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c2ac2a0d_7c082f73",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "isAce \u003d (card[i].number \u003d\u003d 1)\nで表せられると思います。つまりisAceメンバはいらない",
+      "range": {
+        "startLine": 64,
+        "startChar": 37,
+        "endLine": 64,
+        "endChar": 42
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba7e012e_fc37de9c",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "古いC言語にはないので仕方ないですが\nOn/Off, Yes/No的なものは一般的にbool型という型を遣います。",
+      "range": {
+        "startLine": 75,
+        "startChar": 15,
+        "endLine": 75,
+        "endChar": 25
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5d0e5334_832d16a7",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "dealer_maxとの違いは？",
+      "range": {
+        "startLine": 78,
+        "startChar": 16,
+        "endLine": 78,
+        "endChar": 29
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3bae0c1d_a545b5f6",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "この書き方は特殊だと思います。\n下記が一般的\n\ncase X:\n  foo;\n  break;",
+      "range": {
+        "startLine": 142,
+        "startChar": 0,
+        "endLine": 149,
+        "endChar": 35
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c8705531_20d82845",
+        "filename": "main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1014819
+      },
+      "writtenOn": "2018-08-23T15:35:07Z",
+      "side": 1,
+      "message": "define",
+      "range": {
+        "startLine": 152,
+        "startChar": 36,
+        "endLine": 152,
+        "endChar": 38
+      },
+      "revId": "3cc47a715b89dd6f07b3c9565f9648423e2f7d89",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
